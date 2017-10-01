@@ -176,7 +176,7 @@ extension CVCalendarDayViewControlCoordinator {
         
         let startDate = selectedStartDayView?.date.convertedDate(calendar: calendar)
         
-        disableDays(inMonth: monthView, beforeDate: startDate, afterDate: maxSelectableDate)
+        //disableDays(inMonth: monthView, beforeDate: startDate, afterDate: maxSelectableDate)
     }
 }
 
